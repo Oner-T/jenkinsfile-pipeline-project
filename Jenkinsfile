@@ -9,7 +9,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
+                echo 'Clarusway_Way to Reinvent Yourself updated!'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
