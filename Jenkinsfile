@@ -7,7 +7,7 @@ pipeline {
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
             }
         }
-        stage('build') {
+        stage('run') {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself updated!'
                 sh 'python --version'
